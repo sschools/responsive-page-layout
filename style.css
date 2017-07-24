@@ -124,3 +124,26 @@ footer nav a {
     margin-right: 0;
   }
 }
+
+@media screen and ( min-width: 1100px) {
+  #main_content {
+    display: flex;
+  }
+
+  #main_content div:first-child {
+    flex-basis: 66%;
+  }
+
+  #main_content div:last-child {
+    flex-basis: 33%;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header nav {
+    width: 60%;
+  }
+}
