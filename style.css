@@ -82,3 +82,8 @@ header{
   padding: 10px;
   border-radius: 5px;
 }
+
+#sidebar_content div {
+  background-color: #ffffdd;
+  padding: 10px;
+}
